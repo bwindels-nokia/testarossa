@@ -1,0 +1,16 @@
+{
+	"bin": "./lib/cli.js",
+	"name": "testarossa",
+	"version": "0.0.1",
+	"author": "Bruno Windels <bruno.windels@nokia.com>",
+	"description": "An async test framework that is very extensible and includes a handy http helper",
+	"main": "./lib/index.js",
+	"dependencies" : {
+		"async" : "0.x",
+		"container": "0.x",
+		"underscore": "1.x",
+		"upperscore": "0.x",
+		"commander": "1.1.x"
+	},
+	"engines" : { "node" : ">=0.8" }
+}
